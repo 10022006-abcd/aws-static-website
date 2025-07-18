@@ -35,11 +35,9 @@ A fully functional static website hosted on **Amazon S3**, demonstrating secure 
 
 ## Website Link (Archived)
 
-🔗 [http://mystaticwebsite-hmr2025.s3-website-us-east-1.amazonaws.com/] *(no longer active)*  
-⚠️ This project was initially deployed on AWS S3 for static hosting demonstration.  
+[http://porscheawsbucket.s3-website-us-east-1.amazonaws.com] *(no longer active)*  
+This project was initially deployed on AWS S3 for static hosting demonstration.  
 The bucket has since been deleted to avoid ongoing cloud charges.
-
-https://10022006-abcd.github.io/aws-static-website/
 
 ### Website Link (GitHub Pages – Active)
 
