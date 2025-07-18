@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-     <title>My Static Website</title>
+  <meta charset="UTF-8">
+  <title>Porsche 911 GT3</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #e30b17;
+      font-size: 2.5em;
+    }
+
+    nav {
+      text-align: center;
+      background: #1a1a1a;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .hero {
+      background-image: url('porsche.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 2.5em;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #e30b17;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a1a1a;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-     <h1>Welcome to My Website</h1>
-     <p>This is a sample static website hosted on Amazon S3.</p>
-     <img src="cat.jpg" alt="A cute cat" width="300">
+
+  <header>
+    <h1>Porsche 911 GT3</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#performance">Performance</a>
+    <a href="#design">Design</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Pure Motorsport DNA</h2>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>The Porsche 911 GT3 is a high-performance version of the iconic 911, built with a focus on track-ready performance while still being street-legal. It represents the pinnacle of Porsche’s motorsport engineering, known for its naturally aspirated engine, aerodynamic styling, and raw driving experience.</p>
+  </section>
+
+  <section class="section" id="performance">
+    <h2>Performance</h2>
+    <p>Powered by a 4.0-liter flat-six engine, the 911 GT3 produces over 500 horsepower and revs up to 9,000 RPM. It accelerates from 0 to 100 km/h in just around 3.4 seconds, with precision handling and race-proven suspension systems for the ultimate driving thrill.</p>
+  </section>
+
+  <section class="section" id="design">
+    <h2>Design</h2>
+    <p>Featuring an aggressive aerodynamic body, rear wing, center-exit exhaust, and lightweight materials like carbon fiber, the GT3 is not only built to go fast — it looks the part too. The interior combines a driver-focused layout with motorsport elements like bucket seats and a minimalist dashboard.</p>
+  </section>
+
 </body>
 </html>
